@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -8,11 +7,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Brand */}
           <div className="max-w-xs">
-            <Image
+            <img
               src="/authlokr-logo.png"
               alt="AuthLokr"
-              width={1024}
-              height={1024}
               className="h-20 w-20 object-contain mb-3"
             />
             <p className="text-xs font-semibold tracking-widest text-cyber-cyan uppercase mb-3">
